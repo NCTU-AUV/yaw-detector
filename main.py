@@ -43,16 +43,16 @@ def draw_red_lines(image_path, output_path):
 
 
 if __name__ == "__main__":
-    print("90:", calculate_yaw_angle("tile_pos90.png"))
-    print("75:", calculate_yaw_angle("tile_pos75.png"))
-    print("45:", calculate_yaw_angle("tile_pos45.png"))
-    print("30:", calculate_yaw_angle("tile_pos30.png"))
-    print("15:", calculate_yaw_angle("tile_pos15.png"))
-    print("0:", calculate_yaw_angle("tile_0.png"))
-    print("-15:", calculate_yaw_angle("tile_neg15.png"))
-    print("-30:", calculate_yaw_angle("tile_neg30.png"))
-    print("-45:", calculate_yaw_angle("tile_neg45.png"))
-    print("-75:", calculate_yaw_angle("tile_neg75.png"))
-    print("-90:", calculate_yaw_angle("tile_neg90.png"))
+    print("90:", calculate_yaw_angle("images/tile_pos90.png"))
+    print("75:", calculate_yaw_angle("images/tile_pos75.png"))
+    print("45:", calculate_yaw_angle("images/tile_pos45.png"))
+    print("30:", calculate_yaw_angle("images/tile_pos30.png"))
+    print("15:", calculate_yaw_angle("images/tile_pos15.png"))
+    print("0:", calculate_yaw_angle("images/tile_0.png"))
+    print("-15:", calculate_yaw_angle("images/tile_neg15.png"))
+    print("-30:", calculate_yaw_angle("images/tile_neg30.png"))
+    print("-45:", calculate_yaw_angle("images/tile_neg45.png"))
+    print("-75:", calculate_yaw_angle("images/tile_neg75.png"))
+    print("-90:", calculate_yaw_angle("images/tile_neg90.png"))
 
-    # draw_red_lines("tile_neg30.png", "linesDetected.jpg")
+    # draw_red_lines("images/tile_neg30.png", "linesDetected.jpg")
